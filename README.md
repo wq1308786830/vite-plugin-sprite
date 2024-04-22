@@ -6,10 +6,11 @@ vite-plugin-sprite 是一个基于nodejs生成雪碧图的vite插件，可以将
 需要注意的是，gif虽然支持，但是由于合并图片只能是静态图，所以只会取gif第一帧作为合并源。
 
 使用：
+```
+npm i vite-plugin-sprite -D
+```
 ```js
 import vitePluginSprite from 'vite-plugin-sprite'
-
-...
 
 export default defineConfig(({ command, mode }) => {
   return {
