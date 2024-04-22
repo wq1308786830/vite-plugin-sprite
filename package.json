@@ -1,0 +1,25 @@
+{
+  "name": "vite-plugin-sprite",
+  "version": "1.0.0",
+  "description": "vite生成雪碧图以及css",
+  "license": "MIT",
+  "author": "Russell <flyingcycling@outlook.com>",
+  "keywords": [
+    "sprite",
+    "sprites",
+    "vite",
+    "雪碧图",
+    "多图合并"
+  ],
+  "homepage": "https://github.com/wq1308786830/vite-plugin-sprite",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "glob": "^10.3.12",
+    "spritesmith": "^3.4.1",
+    "vite": "^4.5.3"
+  }
+}
