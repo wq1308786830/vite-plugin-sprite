@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-sprite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vite sprite plugin",
   "license": "MIT",
   "author": "Russell <flyingcycling@outlook.com>",
@@ -14,7 +14,13 @@
   "homepage": "https://github.com/wq1308786830/vite-plugin-sprite",
   "main": "index.js",
   "bin": "./bin/index.js",
-  "files": ["bin", "lib", "index.js", "LICENSE", "README.md"],
+  "files": [
+    "bin",
+    "lib",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "build": "vite build"
   },
