@@ -28,3 +28,13 @@ export default defineConfig(({ command, mode }) => {
 source // 支持指定任意目录包括递归目录，如： sprite, ./sprite, **/sprite， test/**/sprite等合法路径。
 scale // css像素数值的缩放倍数，方便在css中使用。
 ```
+
+也可以单独以命令行方式使用，如想要单独使用雪碧图功能而不启动项目时：
+```bash
+vite-plugin-sprite [source] [scale]
+```
+
+也可以作为npm命令使用：
+```
+"sprite": "vite-plugin-sprite **/sprite 4"
+```
